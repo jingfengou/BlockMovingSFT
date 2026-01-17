@@ -1,0 +1,18 @@
+# BlockMoving COT SFT Configuration
+# Used with MathCanvas BAGEL-Canvas training pipeline
+
+blockmoving_cot:
+  dataset_names:
+  - blockmoving_train
+  image_transform_args:
+    image_stride: 16
+    max_image_size: 512
+    min_image_size: 512
+  vit_image_transform_args:
+    image_stride: 14
+    max_image_size: 512
+    min_image_size: 512
+  is_mandatory: true
+  num_used_data:
+  - 8  # Number of parquet files
+  weight: 1.0
