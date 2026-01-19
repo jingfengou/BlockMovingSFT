@@ -1,0 +1,12 @@
+{
+  "num_samples": 682,
+  "file_path": "/home/ubuntu/oujingfeng/project/spatialreasoning/BlockMovingSFT/data/output/train.parquet",
+  "columns": [
+    "task_id",
+    "answer",
+    "question_interleave",
+    "solution_interleave",
+    "question_images",
+    "solution_images"
+  ]
+}

@@ -1,6 +1,6 @@
 # Ignore data files and outputs
-data/train/*.parquet
-data/train/train_parquet_info.json
+# data/train/*.parquet
+# data/train/train_parquet_info.json
 *.pyc
 __pycache__/
 .DS_Store
